@@ -4,6 +4,7 @@ public abstract class Section implements Instrument {
     public Section(String sectionName){
         this.sectionName = sectionName;
     }
+
     @Override
     public void play() {
         System.out.print("Playing music with " + sectionName);
