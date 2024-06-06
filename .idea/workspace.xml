@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Added Musicians">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Fixed Typo">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Orchestra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orchestra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/strings/StringsInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/strings/StringsInstrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/WoodwindsInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/WoodwindsInstrument.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717670053526</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fixed Typo">
+      <option name="closed" value="true" />
+      <created>1717670145855</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717670145855</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,11 +288,11 @@
     <MESSAGE value="Finished Project Structure Documentation" />
     <MESSAGE value="Updated Readability" />
     <MESSAGE value="Fixed Project Structure" />
-    <MESSAGE value="Fixed Typo" />
     <MESSAGE value="Added String Instruments" />
     <MESSAGE value="Fixed minor Structure mistake" />
     <MESSAGE value="Added Woodwinds Instruments" />
     <MESSAGE value="Added Musicians" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Musicians" />
+    <MESSAGE value="Fixed Typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Typo" />
   </component>
 </project>
