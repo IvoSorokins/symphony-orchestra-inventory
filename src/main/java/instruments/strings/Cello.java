@@ -7,6 +7,6 @@ public class Cello extends StringsInstrument {
     }
     @Override
     public void play() {
-
+        System.out.println(manufacturer + " Cello");
     }
 }

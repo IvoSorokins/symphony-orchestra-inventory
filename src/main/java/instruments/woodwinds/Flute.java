@@ -7,6 +7,6 @@ public class Flute extends WoodwindsInstrument {
     }
     @Override
     public void play() {
-
+        System.out.println(manufacturer + " Cello");
     }
 }
