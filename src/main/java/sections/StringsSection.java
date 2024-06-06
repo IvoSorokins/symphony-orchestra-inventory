@@ -1,3 +1,5 @@
+package sections;
+
 public class StringsSection extends Section {
     public StringsSection(){
         super("strings section");

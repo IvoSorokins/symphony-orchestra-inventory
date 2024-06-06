@@ -1,3 +1,5 @@
+package sections;
+
 public class WoodwindsSection extends Section {
 
     public WoodwindsSection(){
