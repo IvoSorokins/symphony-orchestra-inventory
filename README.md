@@ -1,7 +1,7 @@
 # Symphony Orchestra Inventory
 
 ## Overview
-This project helps Symphony Orchestra to handle their instruments inventory, instruments.Instrument have to be assigned to musicians
+This project helps Symphony Orchestra to handle their instruments inventory, Instrument have to be assigned to musicians
 
 ## Structure
  - `Instrument` interface
