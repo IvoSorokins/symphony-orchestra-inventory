@@ -1,3 +1,7 @@
+package instruments.sections;
+
+import instruments.Instrument;
+
 public abstract class Section implements Instrument {
     protected String sectionName;
 

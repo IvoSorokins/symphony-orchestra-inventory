@@ -1,4 +1,4 @@
-package sections;
+package instruments.sections;
 
 public class WoodwindsSection extends Section {
 

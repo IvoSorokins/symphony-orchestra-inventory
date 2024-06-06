@@ -1,4 +1,4 @@
-package sections;
+package instruments.sections;
 
 public class StringsSection extends Section {
     public StringsSection(){

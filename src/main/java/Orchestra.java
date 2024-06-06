@@ -1,5 +1,6 @@
-import sections.StringsSection;
-import sections.WoodwindsSection;
+import instruments.Instrument;
+import instruments.sections.StringsSection;
+import instruments.sections.WoodwindsSection;
 
 
 public class Orchestra {
