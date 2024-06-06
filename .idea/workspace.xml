@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Fixed Typo">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Orchestra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orchestra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/strings/StringsInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/strings/StringsInstrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/WoodwindsInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/WoodwindsInstrument.java" afterDir="false" />
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Updated Main Class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717670145855</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Made Strings and Woodwinds Instrument class abstract">
+      <option name="closed" value="true" />
+      <created>1717671325363</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1717671325363</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated Main Class">
+      <option name="closed" value="true" />
+      <created>1717671344326</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1717671344326</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,6 +309,8 @@
     <MESSAGE value="Added Woodwinds Instruments" />
     <MESSAGE value="Added Musicians" />
     <MESSAGE value="Fixed Typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Typo" />
+    <MESSAGE value="Made Strings and Woodwinds Instrument class abstract" />
+    <MESSAGE value="Updated Main Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Main Class" />
   </component>
 </project>
