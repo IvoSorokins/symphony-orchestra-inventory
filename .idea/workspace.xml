@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Added Print Statement" />
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Added manufacturer, id, availability and ID Prefix">
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/strings/StringsInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/strings/StringsInstrument.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1717673529206</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added manufacturer, id, availability and ID Prefix">
+      <option name="closed" value="true" />
+      <created>1717677908830</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1717677908830</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove Uneccesary files" />
     <MESSAGE value="Understanding Task, Documentation Update" />
     <MESSAGE value="Created Interface" />
     <MESSAGE value="Created StringsSection" />
@@ -333,6 +342,7 @@
     <MESSAGE value="Added addInstrument()" />
     <MESSAGE value="Added Override play()" />
     <MESSAGE value="Added Print Statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Print Statement" />
+    <MESSAGE value="Added manufacturer, id, availability and ID Prefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added manufacturer, id, availability and ID Prefix" />
   </component>
 </project>
