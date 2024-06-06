@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Fixed Typos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Fixed minor Structure mistake">
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/Flute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/WoodwindsInstrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/musicians/Musician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/musicians/StringsMusician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/musicians/WoodwindsMusician.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WoodwindsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WoodwindsSection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -53,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Orchestra">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.Main" />
       <module name="symphony-orchestra-inventory.main" />
@@ -61,8 +64,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Orchestra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Orchestra" />
+      <module name="symphony-orchestra-inventory.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Orchestra" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -148,19 +159,117 @@
       <option name="project" value="LOCAL" />
       <updated>1717592007322</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Section Attribute to the instrument Categories">
+      <option name="closed" value="true" />
+      <created>1717592183823</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717592183823</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added Test">
+      <option name="closed" value="true" />
+      <created>1717592196990</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717592196990</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added sections package">
+      <option name="closed" value="true" />
+      <created>1717665147511</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717665147511</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added instruments package and instruments">
+      <option name="closed" value="true" />
+      <created>1717665183888</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717665183888</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Renamed Main Class to Orchestra">
+      <option name="closed" value="true" />
+      <created>1717665382593</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717665382593</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Finished Project Structure Documentation">
+      <option name="closed" value="true" />
+      <created>1717666554664</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717666554664</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated Readability">
+      <option name="closed" value="true" />
+      <created>1717666595168</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717666595168</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed Project Structure">
+      <option name="closed" value="true" />
+      <created>1717669758609</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717669758609</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fixed Typo">
+      <option name="closed" value="true" />
+      <created>1717669770089</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717669770089</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added String Instruments">
+      <option name="closed" value="true" />
+      <created>1717669880736</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717669880736</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixed minor Structure mistake">
+      <option name="closed" value="true" />
+      <created>1717669977254</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717669977254</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added README.md" />
     <MESSAGE value="Remove Uneccesary files" />
     <MESSAGE value="Understanding Task, Documentation Update" />
-    <MESSAGE value="Fixed Typo" />
     <MESSAGE value="Created Interface" />
     <MESSAGE value="Created StringsSection" />
     <MESSAGE value="Created WoodwindsSection" />
     <MESSAGE value="Created Section with SectionName Attribute" />
     <MESSAGE value="Fixed Typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Typos" />
+    <MESSAGE value="Added Section Attribute to the instrument Categories" />
+    <MESSAGE value="Added Test" />
+    <MESSAGE value="Added sections package" />
+    <MESSAGE value="Added instruments package and instruments" />
+    <MESSAGE value="Renamed Main Class to Orchestra" />
+    <MESSAGE value="Finished Project Structure Documentation" />
+    <MESSAGE value="Updated Readability" />
+    <MESSAGE value="Fixed Project Structure" />
+    <MESSAGE value="Fixed Typo" />
+    <MESSAGE value="Added String Instruments" />
+    <MESSAGE value="Fixed minor Structure mistake" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed minor Structure mistake" />
   </component>
 </project>
