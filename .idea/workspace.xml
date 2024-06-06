@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Updated Main Class">
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Added Override play()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -284,7 +283,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717671344326</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added addInstrument()">
+      <option name="closed" value="true" />
+      <created>1717673281339</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717673281339</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added Override play()">
+      <option name="closed" value="true" />
+      <created>1717673302503</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1717673302503</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -311,6 +326,8 @@
     <MESSAGE value="Fixed Typo" />
     <MESSAGE value="Made Strings and Woodwinds Instrument class abstract" />
     <MESSAGE value="Updated Main Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Main Class" />
+    <MESSAGE value="Added addInstrument()" />
+    <MESSAGE value="Added Override play()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Override play()" />
   </component>
 </project>

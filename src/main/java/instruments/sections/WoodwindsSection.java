@@ -21,5 +21,6 @@ public class WoodwindsSection extends Section {
     @Override
     public void play(){
         super.play();
+        System.out.println(" following woodwind instruments:");
     }
 }

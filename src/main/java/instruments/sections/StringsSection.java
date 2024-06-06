@@ -19,5 +19,6 @@ public class StringsSection extends Section {
     @Override
     public void play(){
         super.play();
+        System.out.println(" following string instruments:");
     }
 }
