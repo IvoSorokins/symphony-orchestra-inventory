@@ -5,8 +5,9 @@ public class Violin extends StringsInstrument {
     public Violin(String manufacturer){
         super(manufacturer);
     }
+
     @Override
     public void play() {
-        System.out.println(manufacturer + " Cello");
+        System.out.println(manufacturer + " violin");
     }
 }
