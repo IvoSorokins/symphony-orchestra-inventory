@@ -2,6 +2,9 @@ package instruments.sections;
 
 import instruments.Instrument;
 
+/**
+ * Abstract Section class implements the Instrument interface
+ */
 public abstract class Section implements Instrument {
     protected String sectionName;
 
