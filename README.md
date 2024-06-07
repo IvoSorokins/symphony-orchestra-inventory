@@ -31,5 +31,5 @@ This project helps Symphony Orchestra to handle their instruments inventory, Ins
  - `StringsMusician` - extends `Musician`
  - `WoodwindsMusician` - extends `Musician`
 
-### Main Class
+#### Main Class
  - `Orchestra`: Manages objects for both section classes
