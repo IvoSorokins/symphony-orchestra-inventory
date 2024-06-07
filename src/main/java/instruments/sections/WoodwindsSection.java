@@ -1,6 +1,7 @@
 package instruments.sections;
 
 import instruments.Instrument;
+import instruments.woodwinds.WoodwindsInstrument;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +14,7 @@ public class WoodwindsSection extends Section {
         instruments = new ArrayList<>();
     }
 
-    public <T extends Instrument> void addInstrument(T instrument) {
+    public <T extends WoodwindsInstrument> void addInstrument(T instrument) {
         instruments.add(instrument);
 
     }
