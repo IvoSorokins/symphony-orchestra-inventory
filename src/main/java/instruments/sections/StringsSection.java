@@ -16,6 +16,10 @@ public class StringsSection extends Section {
         instruments.add(instrument);
     }
 
+    public List<StringsInstrument> getInstruments() {
+        return instruments;
+    }
+
     public void printAvailableInstruments() {
         instruments.stream()
                 .filter(StringsInstrument::isAvailable)

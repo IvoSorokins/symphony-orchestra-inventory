@@ -18,6 +18,10 @@ public class WoodwindsSection extends Section {
         instruments.add(instrument);
     }
 
+    public List<WoodwindsInstrument> getInstruments() {
+        return instruments;
+    }
+
     public void printAvailableInstruments() {
         instruments.stream()
                 .filter(WoodwindsInstrument::isAvailable)
