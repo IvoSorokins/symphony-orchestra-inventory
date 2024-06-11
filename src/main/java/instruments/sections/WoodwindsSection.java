@@ -18,6 +18,12 @@ public class WoodwindsSection extends Section {
         instruments.add(instrument);
     }
 
+    public void printAvailableInstruments() {
+        instruments.stream()
+                .filter(WoodwindsInstrument::isAvailable)
+                .forEach(instrument -> System.out.println(instrument.getID() + " - " + instrument.getManufacturer()));
+    }
+
     @Override
     public void play(){
         super.play();

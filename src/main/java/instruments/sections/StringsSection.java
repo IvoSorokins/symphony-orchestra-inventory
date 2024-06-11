@@ -1,6 +1,5 @@
 package instruments.sections;
 
-import instruments.Instrument;
 import instruments.strings.StringsInstrument;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +14,12 @@ public class StringsSection extends Section {
 
     public <T extends StringsInstrument> void addInstrument(T instrument) {
         instruments.add(instrument);
+    }
+
+    public void printAvailableInstruments() {
+        instruments.stream()
+                .filter(StringsInstrument::isAvailable)
+                .forEach(instrument -> System.out.println(instrument.getID() + " - " + instrument.getManufacturer()));
     }
 
     @Override
