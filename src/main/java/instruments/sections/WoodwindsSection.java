@@ -2,13 +2,10 @@ package instruments.sections;
 
 import instruments.Instrument;
 import instruments.woodwinds.WoodwindsInstrument;
-
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class WoodwindsSection extends Section {
-    private List<Instrument> instruments;
-
     public WoodwindsSection(){
         super("Woodwinds section");
         instruments = new ArrayList<>();
