@@ -30,6 +30,4 @@ public abstract class StringsInstrument implements Instrument {
     public void setAvailable(boolean available) {
         isAvailable = available;
     }
-
-
 }
