@@ -14,14 +14,18 @@ public class WoodwindsSection extends Section {
         instruments = new ArrayList<>();
     }
 
-    public <T extends WoodwindsInstrument> void addInstrument(T instrument) {
-        instruments.add(instrument);
-
+    @Override
+    public <T extends Instrument> void addInstrument(T instrument) {
+        if (instrument instanceof WoodwindsInstrument) {
+            instruments.add(instrument);
+        } else {
+            throw new IllegalArgumentException("Only woodwind instruments are allowed in StringsSection.");
+        }
     }
 
     @Override
     public void play(){
         super.play();
-        System.out.println(" following woodwind instruments:");
+        System.out.print("following woodwind instruments:");
     }
 }

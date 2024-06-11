@@ -3,23 +3,24 @@ package instruments.sections;
 import instruments.Instrument;
 import instruments.strings.StringsInstrument;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class StringsSection extends Section {
-    private List<Instrument> instruments;
     public StringsSection(){
         super("strings section");
-        instruments = new ArrayList<>();
     }
 
-    public <T extends StringsInstrument> void addInstrument(T instrument) {
+    @Override
+    public <T extends Instrument> void addInstrument(T instrument) {
+        if (instrument instanceof StringsInstrument) {
         instruments.add(instrument);
+        } else {
+        throw new IllegalArgumentException("Only string instruments are allowed in StringsSection.");
+        }
     }
 
     @Override
     public void play(){
         super.play();
-        System.out.println(" following string instruments:");
+        System.out.print(" following string instruments:");
     }
 }
