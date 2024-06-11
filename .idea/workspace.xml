@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Created Contructor + ID Generator">
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Added getName()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/strings/Cello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/strings/Cello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/strings/Violin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/strings/Violin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/Flute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/Flute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Orchestra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orchestra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/musicians/Musician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/musicians/Musician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/musicians/StringsMusician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/musicians/StringsMusician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/musicians/WoodwindsMusician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/musicians/WoodwindsMusician.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,22 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717501305599</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Added README.md">
-      <option name="closed" value="true" />
-      <created>1717501715500</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1717501715500</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Remove Uneccesary files">
-      <option name="closed" value="true" />
-      <created>1717503202474</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1717503202474</updated>
     </task>
     <task id="LOCAL-00003" summary="Understanding Task, Documentation Update">
       <option name="closed" value="true" />
@@ -325,35 +313,203 @@
       <option name="project" value="LOCAL" />
       <updated>1717678202453</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added Constructor that call the constructor from superclass">
+      <option name="closed" value="true" />
+      <created>1717678708752</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1717678708752</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added print statement">
+      <option name="closed" value="true" />
+      <created>1717679287042</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1717679287042</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added Getters and Setter">
+      <option name="closed" value="true" />
+      <created>1717679878709</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1717679878709</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added Musician attributes + constructor for defining new musicians">
+      <option name="closed" value="true" />
+      <created>1717680316856</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1717680316856</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added takeInstrument method">
+      <option name="closed" value="true" />
+      <created>1717680537307</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1717680537307</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Created Musician initialization">
+      <option name="closed" value="true" />
+      <created>1717681599163</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1717681599163</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added new Arraylist, added musicians, print statement of available Instruments, musican from list with takeInstrument()">
+      <option name="closed" value="true" />
+      <created>1717682581455</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1717682581455</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added Comments">
+      <option name="closed" value="true" />
+      <created>1717763831600</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1717763831600</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Updated Documentation">
+      <option name="closed" value="true" />
+      <created>1717764767290</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1717764767290</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fixed Typos">
+      <option name="closed" value="true" />
+      <created>1717766329626</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1717766329626</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added takeInstrument, getter and setter">
+      <option name="closed" value="true" />
+      <created>1717768761032</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1717768761032</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Fixed Typo">
+      <option name="closed" value="true" />
+      <created>1717768786054</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1717768786054</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Fixed Typos">
+      <option name="closed" value="true" />
+      <created>1717770230318</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1717770230318</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added Utils">
+      <option name="closed" value="true" />
+      <created>1717770860700</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1717770860701</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fixed Section Classes, added generic method">
+      <option name="closed" value="true" />
+      <created>1718114169259</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1718114169259</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fixed Section Classes, added generic method">
+      <option name="closed" value="true" />
+      <created>1718114227780</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1718114227780</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fixed small typo">
+      <option name="closed" value="true" />
+      <created>1718115388429</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1718115388430</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Changed Data Types">
+      <option name="closed" value="true" />
+      <created>1718132262373</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1718132262373</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added Getter for Manufacturer">
+      <option name="closed" value="true" />
+      <created>1718132354547</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1718132354547</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fixed typo in Print Statement">
+      <option name="closed" value="true" />
+      <created>1718132476029</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1718132476030</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Added getName()">
+      <option name="closed" value="true" />
+      <created>1718135558603</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1718135558603</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Interface" />
-    <MESSAGE value="Created StringsSection" />
-    <MESSAGE value="Created WoodwindsSection" />
-    <MESSAGE value="Created Section with SectionName Attribute" />
-    <MESSAGE value="Fixed Typos" />
-    <MESSAGE value="Added Section Attribute to the instrument Categories" />
-    <MESSAGE value="Added Test" />
-    <MESSAGE value="Added sections package" />
-    <MESSAGE value="Added instruments package and instruments" />
-    <MESSAGE value="Renamed Main Class to Orchestra" />
-    <MESSAGE value="Finished Project Structure Documentation" />
-    <MESSAGE value="Updated Readability" />
-    <MESSAGE value="Fixed Project Structure" />
-    <MESSAGE value="Added String Instruments" />
-    <MESSAGE value="Fixed minor Structure mistake" />
-    <MESSAGE value="Added Woodwinds Instruments" />
-    <MESSAGE value="Added Musicians" />
-    <MESSAGE value="Fixed Typo" />
-    <MESSAGE value="Made Strings and Woodwinds Instrument class abstract" />
     <MESSAGE value="Updated Main Class" />
     <MESSAGE value="Added addInstrument()" />
     <MESSAGE value="Added Override play()" />
     <MESSAGE value="Added Print Statement" />
     <MESSAGE value="Added manufacturer, id, availability and ID Prefix" />
     <MESSAGE value="Created Contructor + ID Generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Contructor + ID Generator" />
+    <MESSAGE value="Added Constructor that call the constructor from superclass" />
+    <MESSAGE value="Added print statement" />
+    <MESSAGE value="Added Getters and Setter" />
+    <MESSAGE value="Added Musician attributes + constructor for defining new musicians" />
+    <MESSAGE value="Added takeInstrument method" />
+    <MESSAGE value="Created Musician initialization" />
+    <MESSAGE value="Added new Arraylist, added musicians, print statement of available Instruments, musican from list with takeInstrument()" />
+    <MESSAGE value="Added Comments" />
+    <MESSAGE value="Updated Documentation" />
+    <MESSAGE value="Added takeInstrument, getter and setter" />
+    <MESSAGE value="Fixed Typo" />
+    <MESSAGE value="Fixed Typos" />
+    <MESSAGE value="Added Utils" />
+    <MESSAGE value="Fixed Section Classes, added generic method" />
+    <MESSAGE value="Fixed small typo" />
+    <MESSAGE value="Changed Data Types" />
+    <MESSAGE value="Added Getter for Manufacturer" />
+    <MESSAGE value="Fixed typo in Print Statement" />
+    <MESSAGE value="Added getName()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getName()" />
   </component>
 </project>

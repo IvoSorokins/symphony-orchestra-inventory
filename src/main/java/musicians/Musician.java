@@ -10,7 +10,6 @@ public abstract class Musician {
 
     public Musician(String name){
         this.name = name;
-        this.instrumentID = null;
     }
 
     public String getName() {
@@ -20,11 +19,7 @@ public abstract class Musician {
         return instrumentID;
     }
 
-    public void setInstrumentID(String instrumentID){
-        this.instrumentID = instrumentID;
-    }
     public abstract void takeInstrument(Instrument instrument);
-
 }
 
 
