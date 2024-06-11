@@ -14,6 +14,10 @@ public class WoodwindsSection extends Section {
         this.instruments = new ArrayList<>();
     }
 
+    public <T extends WoodwindsInstrument> void addInstrument(T instrument) {
+        instruments.add(instrument);
+    }
+
     @Override
     public void play(){
         super.play();
