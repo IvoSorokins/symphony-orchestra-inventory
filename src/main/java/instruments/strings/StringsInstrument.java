@@ -16,6 +16,9 @@ public abstract class StringsInstrument implements Instrument {
         this.isAvailable = true;
     }
 
+    public String getManufacturer(){
+        return manufacturer;
+    }
     public String getID(){
         return ID;
     }
