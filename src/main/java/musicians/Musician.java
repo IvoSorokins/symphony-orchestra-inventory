@@ -13,6 +13,9 @@ public abstract class Musician {
         this.instrumentID = null;
     }
 
+    public String getName() {
+        return name;
+    }
     public String getInstrumentID(){
         return instrumentID;
     }
