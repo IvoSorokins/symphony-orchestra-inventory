@@ -5,11 +5,10 @@ import instruments.Instrument;
 import java.util.UUID;
 
 public abstract class WoodwindsInstrument implements Instrument {
-    protected String manufacturer;
-    protected String ID;
-    protected boolean isAvailable;
-
-    public static final String ID_PREFIX = "WOODWINDS-";
+    private final String manufacturer;
+    private final String ID;
+    private boolean isAvailable;
+    private static final String ID_PREFIX = "WOODWINDS-";
 
     public WoodwindsInstrument(String manufacturer){
         this.manufacturer = manufacturer;
