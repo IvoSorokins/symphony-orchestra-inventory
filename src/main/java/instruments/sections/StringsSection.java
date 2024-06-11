@@ -2,20 +2,19 @@ package instruments.sections;
 
 import instruments.Instrument;
 import instruments.strings.StringsInstrument;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class StringsSection extends Section {
+    private final List<StringsInstrument> instruments;
     public StringsSection(){
-        super("strings section");
+        super("Strings section");
+        this.instruments = new ArrayList<>();
     }
 
-    @Override
-    public <T extends Instrument> void addInstrument(T instrument) {
-        if (instrument instanceof StringsInstrument) {
+    public <T extends StringsInstrument> void addInstrument(T instrument) {
         instruments.add(instrument);
-        } else {
-        throw new IllegalArgumentException("Only string instruments are allowed in StringsSection.");
-        }
     }
 
     @Override
