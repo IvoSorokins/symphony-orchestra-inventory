@@ -6,19 +6,18 @@ import java.util.UUID;
 
 public abstract class StringsInstrument implements Instrument {
     protected String manufacturer;
-    protected String id;
+    protected String ID;
     protected boolean isAvailable;
-
     public static final String ID_PREFIX = "STRINGS-";
 
     public StringsInstrument(String manufacturer){
         this.manufacturer = manufacturer;
-        this.id = ID_PREFIX + UUID.randomUUID().toString();
+        this.ID = ID_PREFIX + UUID.randomUUID().toString();
         this.isAvailable = true;
     }
 
-    public String getId(){
-        return id;
+    public String getID(){
+        return ID;
     }
 
     public boolean isAvailable(){
