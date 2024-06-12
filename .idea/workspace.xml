@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Fixed Small Typos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/strings/Cello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/strings/Cello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/strings/Violin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/strings/Violin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/Flute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/Flute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/musicians/Musician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/musicians/Musician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/musicians/StringsMusician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/musicians/StringsMusician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/musicians/WoodwindsMusician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/musicians/WoodwindsMusician.java" afterDir="false" />
-    </list>
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Code Clean Up" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,14 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717501305599</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Updated Readability">
-      <option name="closed" value="true" />
-      <created>1717666595168</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1717666595168</updated>
     </task>
     <task id="LOCAL-00017" summary="Fixed Project Structure">
       <option name="closed" value="true" />
@@ -483,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1718218242836</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Code Clean Up">
+      <option name="closed" value="true" />
+      <created>1718222860641</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1718222860642</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Comments" />
     <MESSAGE value="Updated Documentation" />
     <MESSAGE value="Added takeInstrument, getter and setter" />
     <MESSAGE value="Fixed Typo" />
@@ -512,6 +500,7 @@
     <MESSAGE value="Added saveInstrumentsToFile to Orchestra" />
     <MESSAGE value="Added More Musician Assignment" />
     <MESSAGE value="Fixed Small Typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Small Typos" />
+    <MESSAGE value="Code Clean Up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Clean Up" />
   </component>
 </project>
