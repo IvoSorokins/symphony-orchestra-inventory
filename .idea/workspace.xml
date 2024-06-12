@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="created printAvailableInstruments()">
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Fixed typos and readability">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OrchestraUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Orchestra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orchestra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/StringsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/sections/WoodwindsSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/strings/StringsInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/strings/StringsInstrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/WoodwindsInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/woodwinds/WoodwindsInstrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,22 +84,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717501305599</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Created Section with SectionName Attribute">
-      <option name="closed" value="true" />
-      <created>1717508347203</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1717508347203</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Fixed Typos">
-      <option name="closed" value="true" />
-      <created>1717592007322</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1717592007322</updated>
     </task>
     <task id="LOCAL-00010" summary="Added Section Attribute to the instrument Categories">
       <option name="closed" value="true" />
@@ -479,12 +461,26 @@
       <option name="project" value="LOCAL" />
       <updated>1718136825802</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="added getInstruments List">
+      <option name="closed" value="true" />
+      <created>1718137891224</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1718137891224</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Fixed typos and readability">
+      <option name="closed" value="true" />
+      <created>1718137949561</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1718137949561</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Contructor + ID Generator" />
-    <MESSAGE value="Added Constructor that call the constructor from superclass" />
     <MESSAGE value="Added print statement" />
     <MESSAGE value="Added Getters and Setter" />
     <MESSAGE value="Added Musician attributes + constructor for defining new musicians" />
@@ -508,6 +504,8 @@
     <MESSAGE value="added addInstrument()" />
     <MESSAGE value="Implement takeInstrument() from superclass" />
     <MESSAGE value="created printAvailableInstruments()" />
-    <option name="LAST_COMMIT_MESSAGE" value="created printAvailableInstruments()" />
+    <MESSAGE value="added getInstruments List" />
+    <MESSAGE value="Fixed typos and readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typos and readability" />
   </component>
 </project>
