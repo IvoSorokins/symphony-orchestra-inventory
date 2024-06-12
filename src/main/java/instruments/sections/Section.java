@@ -2,8 +2,6 @@ package instruments.sections;
 
 import instruments.Instrument;
 
-
-
 /**
  * Abstract Section class implements the Instrument interface
  */
@@ -17,6 +15,6 @@ public abstract class Section implements Instrument {
 
     @Override
     public void play() {
-        System.out.print("Playing music with " + sectionName + ":\n");
+        System.out.print("Playing music with " + sectionName + ":");
     }
 }

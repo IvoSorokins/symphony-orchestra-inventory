@@ -45,11 +45,13 @@ public class Orchestra {
         System.out.println("\nAvailable instruments in Woodwinds Section:");
         woodwinds.printAvailableInstruments();
 
+        OrchestraUtils.saveInstrumentsToFile(stringsMusicians, woodwindsMusicians,strings.getInstruments(),woodwinds.getInstruments(), "Inventory");
+
         // Play Music
         strings.play();
         woodwinds.play();
 
-        OrchestraUtils.saveInstrumentsToFile(stringsMusicians, woodwindsMusicians,strings.getInstruments(),woodwinds.getInstruments(), "Inventory");
+
     }
 }
 

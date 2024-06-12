@@ -29,6 +29,10 @@ public class StringsSection extends Section {
     @Override
     public void play(){
         super.play();
-        System.out.print("Following String instruments:");
+        System.out.println("\nFollowing String instruments:");
+        instruments.forEach(instrument -> {
+            System.out.print("Playing music with ");
+            instrument.play();
+        });
     }
 }
