@@ -31,6 +31,6 @@ public class WoodwindsSection extends Section {
     @Override
     public void play(){
         super.play();
-        System.out.print(" following string instruments:");
+        System.out.print("Following Woodwinds instruments:");
     }
 }

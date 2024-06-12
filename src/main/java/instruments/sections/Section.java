@@ -17,6 +17,6 @@ public abstract class Section implements Instrument {
 
     @Override
     public void play() {
-        System.out.print("playing music with " + sectionName);
+        System.out.print("Playing music with " + sectionName + ":\n");
     }
 }
