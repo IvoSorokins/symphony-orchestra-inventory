@@ -3,7 +3,6 @@ import instruments.woodwinds.*;
 import instruments.sections.*;
 import musicians.StringsMusician;
 import musicians.WoodwindsMusician;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,8 +34,10 @@ public class Orchestra {
         woodwindsMusicians.add(new WoodwindsMusician("Kristaps"));
 
         // Assigning instruments to musicians
-        StringsMusician firstStringMusician = stringsMusicians.get(0);
-        firstStringMusician.takeInstrument(strings.getInstruments().get(0));
+        stringsMusicians.get(0).takeInstrument(strings.getInstruments().get(0)); // Janka
+        stringsMusicians.get(1).takeInstrument(strings.getInstruments().get(1));// Zigis
+
+        woodwindsMusicians.get(1).takeInstrument(woodwinds.getInstruments().get(0)); // Kristaps
 
         // Print available instruments
         System.out.println("Available instruments in Strings Section:");
@@ -51,3 +52,4 @@ public class Orchestra {
         OrchestraUtils.saveInstrumentsToFile(stringsMusicians, woodwindsMusicians,strings.getInstruments(),woodwinds.getInstruments(), "Inventory");
     }
 }
+

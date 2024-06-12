@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Fixed typos and readability">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrchestraUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Added saveInstrumentsToFile to Orchestra">
       <change beforePath="$PROJECT_DIR$/src/main/java/Orchestra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orchestra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,38 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717501305599</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added Section Attribute to the instrument Categories">
-      <option name="closed" value="true" />
-      <created>1717592183823</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1717592183823</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added Test">
-      <option name="closed" value="true" />
-      <created>1717592196990</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1717592196990</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Added sections package">
-      <option name="closed" value="true" />
-      <created>1717665147511</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1717665147511</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added instruments package and instruments">
-      <option name="closed" value="true" />
-      <created>1717665183888</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1717665183888</updated>
     </task>
     <task id="LOCAL-00014" summary="Renamed Main Class to Orchestra">
       <option name="closed" value="true" />
@@ -477,14 +442,42 @@
       <option name="project" value="LOCAL" />
       <updated>1718137949561</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Deleted Utils.java">
+      <option name="closed" value="true" />
+      <created>1718193452928</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1718193452928</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Updated Print Statement">
+      <option name="closed" value="true" />
+      <created>1718193482073</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1718193482073</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Created OrchestraUtils, saveInstrumentsToFile">
+      <option name="closed" value="true" />
+      <created>1718193520086</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1718193520086</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Added saveInstrumentsToFile to Orchestra">
+      <option name="closed" value="true" />
+      <created>1718193547039</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1718193547039</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added print statement" />
-    <MESSAGE value="Added Getters and Setter" />
-    <MESSAGE value="Added Musician attributes + constructor for defining new musicians" />
-    <MESSAGE value="Added takeInstrument method" />
     <MESSAGE value="Created Musician initialization" />
     <MESSAGE value="Added new Arraylist, added musicians, print statement of available Instruments, musican from list with takeInstrument()" />
     <MESSAGE value="Added Comments" />
@@ -506,6 +499,10 @@
     <MESSAGE value="created printAvailableInstruments()" />
     <MESSAGE value="added getInstruments List" />
     <MESSAGE value="Fixed typos and readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed typos and readability" />
+    <MESSAGE value="Deleted Utils.java" />
+    <MESSAGE value="Updated Print Statement" />
+    <MESSAGE value="Created OrchestraUtils, saveInstrumentsToFile" />
+    <MESSAGE value="Added saveInstrumentsToFile to Orchestra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added saveInstrumentsToFile to Orchestra" />
   </component>
 </project>
