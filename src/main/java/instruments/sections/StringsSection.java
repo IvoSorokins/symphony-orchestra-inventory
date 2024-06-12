@@ -1,10 +1,13 @@
 package instruments.sections;
 
 import instruments.strings.StringsInstrument;
+
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Class representing the strings section of the orchestra
+ */
 public class StringsSection extends Section {
     private final List<StringsInstrument> instruments;
     public StringsSection(){
@@ -12,6 +15,11 @@ public class StringsSection extends Section {
         this.instruments = new ArrayList<>();
     }
 
+    /**
+     * Add an instrument to the strings section.
+     *
+     * @param instrument the instrument to add
+     */
     public <T extends StringsInstrument> void addInstrument(T instrument) {
         instruments.add(instrument);
     }
@@ -20,6 +28,9 @@ public class StringsSection extends Section {
         return instruments;
     }
 
+    /**
+     * Print all available instruments in the strings section using lambda expression
+     */
     public void printAvailableInstruments() {
         instruments.stream()
                 .filter(StringsInstrument::isAvailable)

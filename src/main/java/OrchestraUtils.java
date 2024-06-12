@@ -6,8 +6,18 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Utility class for Orchestra related operations
+ */
 public class OrchestraUtils {
 
+    /**
+     * Get the name of the musician by the instrument ID
+     *
+     * @param musicians List of musicians
+     * @param instrumentID ID of the instrument
+     * @return Name of the musician or "Unknown"
+     */
     private static String getMusicianNameByID(List<? extends Musician> musicians, String instrumentID) {
         for (Musician musician : musicians) {
             if (instrumentID.equals(musician.getInstrumentID())) {
@@ -17,7 +27,15 @@ public class OrchestraUtils {
         return "Unknown";
     }
 
-    // Save list of instruments and their owners to a file
+    /**
+     * Save the list of instruments and their owners to a file
+     *
+     * @param stringsMusicians List of string musicians
+     * @param woodwindsMusicians List of woodwind musicians
+     * @param stringsInstruments List of string instruments
+     * @param woodwindsInstruments List of woodwind instruments
+     * @param filename Name of the file
+     */
     public static void saveInstrumentsToFile(List<? extends Musician> stringsMusicians, List<? extends Musician> woodwindsMusicians,
                                              List<StringsInstrument> stringsInstruments, List<WoodwindsInstrument> woodwindsInstruments,
                                              String filename) {

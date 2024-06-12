@@ -19,9 +19,9 @@ public class Orchestra {
         strings.addInstrument(new Violin("Knilling"));
         strings.addInstrument(new Violin("Stentor"));
 
-
         woodwinds.addInstrument(new Flute("Emerson"));
         woodwinds.addInstrument(new Flute("Pearl"));
+
 
         // String Musicians
         List<StringsMusician> stringsMusicians = new ArrayList<>();
@@ -33,11 +33,13 @@ public class Orchestra {
         woodwindsMusicians.add(new WoodwindsMusician("Jariks"));
         woodwindsMusicians.add(new WoodwindsMusician("Kristaps"));
 
+
         // Assigning instruments to musicians
         stringsMusicians.get(0).takeInstrument(strings.getInstruments().get(0)); // Janka
         stringsMusicians.get(1).takeInstrument(strings.getInstruments().get(1));// Zigis
 
         woodwindsMusicians.get(1).takeInstrument(woodwinds.getInstruments().get(0)); // Kristaps
+
 
         // Print available instruments
         System.out.println("Available instruments in Strings Section:");
@@ -45,13 +47,12 @@ public class Orchestra {
         System.out.println("\nAvailable instruments in Woodwinds Section:");
         woodwinds.printAvailableInstruments();
 
+        // Save All Instruments into a File
         OrchestraUtils.saveInstrumentsToFile(stringsMusicians, woodwindsMusicians,strings.getInstruments(),woodwinds.getInstruments(), "Inventory");
 
         // Play Music
         strings.play();
         woodwinds.play();
-
-
     }
 }
 

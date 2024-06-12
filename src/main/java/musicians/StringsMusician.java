@@ -3,7 +3,9 @@ package musicians;
 import instruments.Instrument;
 import instruments.strings.StringsInstrument;
 
-
+/**
+ * Class representing a musician in the strings section
+ */
 public class StringsMusician extends Musician {
     public StringsMusician(String name) {
         super(name);

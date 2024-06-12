@@ -1,9 +1,11 @@
 package musicians;
 
-
 import instruments.Instrument;
 import instruments.woodwinds.WoodwindsInstrument;
 
+/**
+ * Class representing a musician in the woodwinds section
+ */
 public class WoodwindsMusician extends Musician {
 
     public WoodwindsMusician(String name) {

@@ -1,8 +1,10 @@
 package musicians;
 
-
 import instruments.Instrument;
 
+/**
+ * Abstract class representing a musician
+ */
 
 public abstract class Musician {
     protected String name;
