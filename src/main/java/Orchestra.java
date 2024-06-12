@@ -47,5 +47,7 @@ public class Orchestra {
         // Play Music
         strings.play();
         woodwinds.play();
+
+        OrchestraUtils.saveInstrumentsToFile(stringsMusicians, woodwindsMusicians,strings.getInstruments(),woodwinds.getInstruments(), "Inventory");
     }
 }
