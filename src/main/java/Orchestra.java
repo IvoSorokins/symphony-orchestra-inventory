@@ -42,7 +42,7 @@ public class Orchestra {
 
 
         // Print available instruments
-        System.out.println("Available instruments in Strings Section:");
+        System.out.println("\nAvailable instruments in Strings Section:");
         strings.printAvailableInstruments();
         System.out.println("\nAvailable instruments in Woodwinds Section:");
         woodwinds.printAvailableInstruments();
@@ -51,6 +51,7 @@ public class Orchestra {
         OrchestraUtils.saveInstrumentsToFile(stringsMusicians, woodwindsMusicians,strings.getInstruments(),woodwinds.getInstruments(), "Inventory");
 
         // Play Music
+        System.out.println("\nOrchestra Performance:");
         strings.play();
         woodwinds.play();
     }

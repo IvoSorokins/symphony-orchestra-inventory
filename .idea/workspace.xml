@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Code Clean Up">
+    <list default="true" id="d3a65e8b-4d42-4ae8-8daa-dd8bfc241896" name="Changes" comment="Added Documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Orchestra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Orchestra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717501305599</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Fixed Typo">
-      <option name="closed" value="true" />
-      <created>1717669770089</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1717669770089</updated>
     </task>
     <task id="LOCAL-00019" summary="Added String Instruments">
       <option name="closed" value="true" />
@@ -475,11 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1718222878087</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Added Documentation">
+      <option name="closed" value="true" />
+      <created>1718258700980</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1718258700980</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated Documentation" />
     <MESSAGE value="Added takeInstrument, getter and setter" />
     <MESSAGE value="Fixed Typo" />
     <MESSAGE value="Fixed Typos" />
@@ -504,6 +503,7 @@
     <MESSAGE value="Added More Musician Assignment" />
     <MESSAGE value="Fixed Small Typos" />
     <MESSAGE value="Code Clean Up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Clean Up" />
+    <MESSAGE value="Added Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Documentation" />
   </component>
 </project>
